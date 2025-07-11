@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    
+}
+/********************** nav  ******************/
+.navbar{
+    width: 100%;
+    height: 70px;
+    padding-top: 1%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: 100%;
+    animation: fade-in linear;
+    animation-timeline: view(100px 500px);
+    
+    
+     
+}
+@keyframes fade-in {
+    from{scale: .8;opacity: 0;}
+    to{scale:1;opacity: 1;}
+    
+}
+
+.logo{
+    margin-left: 70px;
+    background-image: url("IMAGES/spacex-logo-white-png-11735766395eqin6ughzj-removebg-preview.png");
+    background-size: cover;
+    height:85%;
+    width: 200px;
+}
+
+.nav-sec{
+    width: 900px;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+}   
+    
+
+.sec{
+    font-size: 14px;
+    
+}
+
+.shop{
+    padding-left: 100px;
+    height: 25px;
+    width: 200px;
+    padding-top: 30px;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/**************************************** info sec  ************************************/
+.tab-cont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    font-size: 40px;
+    font-weight: 570;
+}
+.text1{
+ 
+    font-weight: 100;
+    font-weight:normal;
+}
+.button{
+    margin-top: 30px;
+    height: 50px;
+    width: 160px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+    
+.tab1{
+    width: 100%;
+    height: 765px;
+    background-image: url("IMAGES/home_mars2026_d_59b1a6ea7a.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.inner-left-bottom1{
+    margin-top: 425px;
+    margin-left: 70px;
+    width: 520px;
+    height: 200px;
+    float: left;
+    color: white;
+}
+
+.tab2{
+    width: 100%;
+    height: 835px;
+    background-image: url("IMAGES/Axiom_4_outsidehangar_IMG_3412_desktop_f4cf1ef34c.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.inner-left-bottom2{
+    margin-top: 525px;
+    margin-left: 70px;
+    width: 520px;
+    height: 200px;
+    float: left;
+    color: white;
+}
+.tab3{
+    width: 100%;
+    height: 835px;
+    background-image: url("IMAGES/Flight_9_Website_Desktop_4_f1db4d08ec.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.inner-left-bottom3{
+    margin-top: 525px;
+    margin-left: 70px;
+    width: 520px;
+    height: 200px;
+    float: left;
+    color: white;
+}
+.tab4{
+    width: 100%;
+    height: 835px;
+    background-image: url("IMAGES/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.inner-left-bottom4{
+    margin-top: 525px;
+    margin-left: 70px;
+    width: 520px;
+    height: 200px;
+    float: left;
+    color: white;
+}
+/**********************************footer*********************/
+.panel{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+}
+.panel-cont{
+    width: 25%;
+    height: 12px;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+.ft-sec1{
+    font-weight: normal;
+}
+.ft-sec2{
+    font-weight: bold;
+}
